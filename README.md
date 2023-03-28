@@ -1,0 +1,3 @@
+# Iris Dataset Prediction Model
+
+Wrote a Neural Network Model with 2 dense layers. The first layer takes the 4 features of the flower as input i.e sepal_length, sepal_width, petal_length, petal_width and applies the relu activation function on it. The second layer uses the sigmoid activation function to calculate the probability of it being either of the three species. The class with the highest probability will be the predicted label. When I evaluated the model on test data, I got 97% accuracy.
